@@ -1,4 +1,5 @@
 Vehicle Service Management Application
+
 ​This repository contains the documentation and architectural overview for the Vehicle Service Management application, developed on the Pega Platform™ for the 2026 Pega National Internship Program (NIP).  
 ​Project Overview
 ​Urban Fleet Operations provides vehicle servicing to individual customers across its service centres. Previously relying on emails and phone calls, this application digitizes and automates the end-to-end service workflow. The system enables customers to raise requests, allows service advisors to perform inspections and generate cost estimates, captures customer approvals, and automatically assigns work to technicians.  

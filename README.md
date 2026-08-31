@@ -16,14 +16,18 @@ Vehicle Service Management Application
 ​Automated Correspondence: Upon resolution, the system triggers a generated email notification summarizing the service details, vehicle information, and final cost for the customer.  
 
 ​Technical Architecture
+
 ​Case Lifecycle
+
 ​The Vehicle Service Request case type progresses through the following sequential stages:  
 ​Request Details: Initial intake of vehicle and issue data.  
 ​Inspection: Advisor assesses the vehicle and calculates costs.  
 ​Approval: Customer reviews and approves the total estimate.  
 ​Service Execution: Technicians fulfill the service request.  
-​Resolution: Case closes and completion notifications are sent.  
+​Resolution: Case closes and completion notifications are sent.
+
 ​Data Model
+
 ​Vehicle Data Object: A reusable entity created to maintain independent vehicle records, capturing properties such as Vehicle ID, Model, and Type to ensure data consistency across multiple service requests.  
 ​Access & Personas
 ​The application interface and routing are designed for three distinct personas:  
@@ -32,6 +36,7 @@ Vehicle Service Management Application
 ​Technician: Receives automated assignments and executes the physical vehicle service.  
 
 ​Development Details
+
 ​Platform: Pega Platform™ 8.x
 ​Initial Generation: Scaffolded using Pega Blueprint  
 ​Author: Aditya Kumar
